@@ -26,7 +26,7 @@
 #include <vector>
 
 #include <vk_mem_alloc.h>
-#include <volk.h>
+#include <vulkan/vulkan.h>
 
 #define VK_FLAGS_NONE 0        // Custom define for better code readability
 

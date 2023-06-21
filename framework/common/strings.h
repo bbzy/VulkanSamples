@@ -23,7 +23,7 @@
 #include <unordered_map>
 #include <vector>
 
-#include <volk.h>
+#include <vulkan/vulkan.h>
 
 namespace vkb
 {

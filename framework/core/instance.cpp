@@ -365,8 +365,6 @@ Instance::Instance(const std::string                            &application_nam
 		throw VulkanException(result, "Could not create Vulkan instance");
 	}
 
-	volkLoadInstance(handle);
-
 #if defined(VKB_DEBUG) || defined(VKB_VALIDATION_LAYERS)
 	if (has_debug_utils)
 	{
